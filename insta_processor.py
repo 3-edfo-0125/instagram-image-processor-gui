@@ -72,7 +72,7 @@ def process_image(event):
 
         bg_img.paste(resized_img, (x,y))
     
-        output_file = f'{name}_4x5{ext}'
+        output_file = f'{name}_1x1{ext}'
         output_path = os.path.join(OUTPUT_FOLDER, output_file)
 
         img.close()
@@ -116,3 +116,4 @@ button1.grid(column=0, row=1)
 button2.grid(column=1, row=1)
 
 root.mainloop()
+
