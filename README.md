@@ -7,7 +7,7 @@ Instagram投稿用に画像を簡単に加工したくて作ったツールで�
 - tkinterdnd2でドラッグアンドドロップ対応（複数画像OK）
 - Pillowでインスタ推奨の比率にリサイズ
 - 余白はぼかしで自然に埋める（シンプル加工）\
-  <img src="output/sample1.jpg" width="25%"> →
+  <img src="output/sample1.jpg" width="25%"> → <img src="output/sample1_1x1.jpg" width="25%">
 - 元画像も加工後フォルダに移動
 - ボタン：加工後フォルダを開く / Instagram投稿用タグをクリップボードにコピー
 - 超簡素GUI（ドロップエリア＋ボタンだけ）\
