@@ -9,7 +9,8 @@ Instagram投稿用に画像を簡単に加工したくて作ったツールで�
 - 余白はぼかしで自然に埋める（シンプル加工）
 - 元画像も加工後フォルダに移動
 - ボタン：加工後フォルダを開く / Instagram投稿用タグをクリップボードにコピー
-- 超簡素GUI（ドロップエリア＋ボタンだけ）
+- 超簡素GUI（ドロップエリア＋ボタンだけ）\
+  ![GUI](https://github.com/user-attachments/assets/19b009f2-5cf2-4465-ae00-4cdb807f2570)
 
 ## 使い方
 1. `insta_processor.py` を実行
