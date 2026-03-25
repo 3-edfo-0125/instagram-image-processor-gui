@@ -17,8 +17,6 @@ TAG_TXT_PATH = Path(__file__).resolve().parent / "insta_tag.txt"
 # 画像処理関数
 def process_image(event):
     raws_paths = event.data
-    if raws_paths.startswith("{") and raws_paths.endswith("}"):
-        raws_paths = raws_paths[1:-1]
 
     matches = re.findall(r"{(.*?)}|([^ ]+)", raws_paths)
     file_paths = []
